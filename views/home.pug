@@ -1,0 +1,54 @@
+extends base.pug
+//- extends la mtlb h mai is template ko(jo base wala template h) bhr rha hu
+
+block scripts 
+  script(src='/static/index.js')
+
+block style 
+  style     
+    include ../static/style.css    
+
+block content
+   
+    section#introsection      
+        div Welcome to Sarthak's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection 
+        h2  Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/d5.png")
+
+                div.card-content  
+                    p This is the best dance academy of this city
+
+        div.card
+            h3 Dance the way you Like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/d1.png")
+
+                div.card-content  
+                    p This is the best dance academy of this city
+        div.card
+           h3 Expert Teaching
+           div.card-box
+               div.card-img
+                   img(src="/static/img/d2.png")
+
+               div.card-content  
+                   p This is the best dance academy of this city
+      
+
+    section#sponsorsSection  
+        h2  Our Sponsors
+        div#sponsors 
+            img(src="/static/img/4.png", alt="sponsor image", class="spimage")
+            img(src="/static/img/5.png", alt="sponsor image", class="spimage")
+            img(src="/static/img/6.png", alt="sponsor image", class="spimage")
+            img(src="/static/img/7.png", alt="sponsor image", class="spimage")
+
+    

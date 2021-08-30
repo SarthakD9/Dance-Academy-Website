@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin:0 14px ;
+    margin-right: 45px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#logo img{
+    height: 52px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: #ff3f12;
+    padding: 16px 14px;
+    font-family: 'Roboto Slab', serif;
+}
+#navbar ul{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    font-weight: bold;
+    font-size: 21px;
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+}
+#navbar li a:hover{
+   color: black;
+}
+
+#introsection{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 46px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg");
+height: 425px;
+background-color: red;
+padding-bottom: 40px;
+}
+#introsection div.small{
+    padding: 5px;
+    font-size: 35px;
+}
+
+#missionSection{
+    height: 312px;  
+    width: 80%;
+    margin: auto;
+    
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+    }
+
+    .card{
+        border: 2px solid black;
+        border-radius: 7px;
+        width: 29%;
+        margin:15px 20px;
+        height: 209px;
+        display: inline-block;
+        background-color: #fadfdf;
+    }
+
+    .card h3{
+        text-align: center;
+        margin: 15px;
+        margin-top: 15px;
+        font-size: 20px;
+        font-family: 'Roboto Slab', serif;
+    }
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 130px;
+    padding: 0 14px;
+    margin: 2px 4px;
+}
+.card-img img{ 
+    height: inherit;
+    
+}
+.card-content{
+    padding: -1px 10px;
+}
+.card-content p{
+font-size: 19px;
+}
+
+#sponsorsSection{
+height: 300px;
+background-color: #fc7474e6;
+}
+#sponsorsSection h2{
+text-align: center;
+padding-top: 12px;
+font-family: 'Roboto Slab', serif;
+font-size: 32px;
+}
+#sponsors{
+    height: 220px;
+    max-width: 1000px;
+    margin:27px 311px;
+}
+
+.spimage{
+    height:80% ;
+}
+
+#footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 40px;
+background-color: black;
+font-size: 20px;
+}
